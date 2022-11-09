@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ob havo dasturi</h1>
+        <form>
+            <input type="text" placeholder="Region kiriting ...">
+            <button>Submit</button>
+        </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <button class="Locals-btn">Locals</button>
+                <ul class="div-locals">
+                    <!-- <li>
+                        <h2 class="locals-name">Name <span class="locals-gradus">0</span> </h2>
+                        <button>Uchirish</button>
+                    </li> -->
+                </ul>
+                <div class="cards">
+                    <template>
+                        <div class="card">
+                            <h3 class="card-title">
+                                Name
+                            </h3>
+                            <h2 >
+                                Bulutli  <span class="card-text"></span> 
+                            </h2> 
+                            <h3 class="cradus">Gradus </h3>
+                            <button class="card-btn">Saqlash</button> 
+                        </div>
+                    </template>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- https://api.openweathermap.org/data/2.5/weather?q=Nyu-york&appid=3d17197cb08ab8c23ac139348e444742 -->
+    
+    <!-- // 3d17197cb08ab8c23ac139348e444742 -->
+    <script src="./Javascript/axios.js"></script>
+    <script src="./Javascript/utils.js"></script>
+    <script src="./Javascript/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.479);
+}
+.container{
+    width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+header h1{
+    padding: 1rem;
+    color: orangered ;
+    font-size: 40px;
+}
+form input , form button, .card-btn{
+    padding: 0.3rem 0.5rem;
+    font-size: 16px;
+    outline: 3px solid transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 0.4rem;
+    transition:all 0.5s ease;
+    color: #000;
+}
+form input:focus, form button:hover, .card-btn:hover{
+    outline: 3px solid rgba(255, 68, 0, 0.54);
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.card{
+    text-align: center;
+}
+.card h3{
+    font-size: 40px;
+}
+.card-text{
+    padding-top: 1rem;
+}
+.cradus{
+    padding: 1rem;
+}
+.div-locals{
+    width: 25%;
+    height:2px;
+    background: grey;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.block{
+    opacity: 1;
+    transform: translateX(0%);
+}
+.block li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
